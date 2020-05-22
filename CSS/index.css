@@ -152,6 +152,7 @@ h3 {
 h1 {
   font-size: 7rem;
   padding-top: 2%;
+  margin-left: 1%;
 }
 h2 {
   font-size: 4rem;
@@ -175,6 +176,12 @@ img {
   max-width: 1200px;
   width: 98%;
   margin: 0 auto;
+}
+.header {
+  background-color: lightgrey;
+  border: 1px solid slategray;
+  border-radius: 1rem;
+  margin-top: 10px;
 }
 nav {
   display: flex;
@@ -201,6 +208,9 @@ nav a {
   text-decoration: none;
   padding: 1.5%;
   color: black;
+}
+nav a:hover {
+  color: white;
 }
 .footer {
   display: flex;
