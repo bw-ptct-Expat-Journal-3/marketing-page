@@ -183,7 +183,7 @@ hr {
   width: 98%;
 }
 .header {
-  background-color: lightgrey;
+  background-color: #a0cef3;
   border: 1px solid slategray;
   border-radius: 1rem;
   margin-top: 10px;
@@ -272,6 +272,23 @@ nav a:hover {
 .introDiv button:hover {
   background-color: white;
   color: slategray;
+}
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.mainContent div {
+  margin: 20px;
+  background-color: navajowhite;
+  border: 1px solid slategray;
+  border-radius: 1rem;
+  padding: 10px;
+  height: 550px;
+}
+.mainContent div img {
+  border-radius: 0.75rem;
 }
 .aboutIntroDiv {
   display: flex;
