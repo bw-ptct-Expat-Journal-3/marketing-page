@@ -1,0 +1,91 @@
+.aboutIntro {
+    margin: 20px;
+
+    img {
+    border-radius: .75rem;
+    }
+}
+
+.aboutIntroDiv {
+    .flex-spacing(center,center);
+    flex-direction: column;
+    background-color: @main-bg;
+    border: 1px solid slategray;
+    border-radius: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+    h2 {
+        font-size: 7rem;;
+    }
+
+    h3 {
+        padding-bottom: 10px;;
+    }
+
+    nav {
+        .flex-spacing(center,center);
+    }
+
+    button {
+        background-color: @bttn-color;
+        margin-top: 10px;
+        color: white;
+        border-radius: .5rem;
+        font-size: 1.5rem;
+    }
+
+    button:hover {
+       background-color: @hover-color;
+       color: slategray;
+    }
+}
+
+.teamIntro {
+    padding: 10px;
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    img {
+        border-radius: .75rem;
+        margin-bottom: 10px;
+    }
+}
+
+.teamContent {
+    .flex-spacing(center, flex-start);
+     flex-wrap: wrap;
+
+     .teamHeader {
+         margin-bottom: 30px;
+         margin-top: 20px;
+
+         h2 {
+             font-size: 7rem;
+         }
+     }
+
+     img {
+         border-radius: 15rem;
+         margin-bottom: 10px;
+     }
+
+     .teamInfo {
+         .flex-spacing(flex-start,center);
+         flex-wrap: wrap;
+        //  border: 1px solid slategray;
+        //  border-radius: 1rem;
+        //  background-color: @header-bg;
+        
+         div {
+             margin: 30px;
+             padding: 20px;
+             border: 1px solid slategray;
+             border-radius: 1rem;
+             background-color: @header-bg;
+         }
+     }
+}

@@ -1,0 +1,376 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 1000px) {
+  html,
+  body {
+    margin: 1%;
+  }
+}
+@media (max-width: 500px) {
+  html,
+  body {
+    margin: 2%;
+  }
+}
+h1,
+h2,
+h3 {
+  font-family: monospace;
+}
+h1 {
+  font-size: 7rem;
+  padding-top: 2%;
+  margin-left: 1%;
+}
+h2 {
+  font-size: 4rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h3 {
+  font-size: 3rem;
+  padding: 5px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1200px;
+  width: 98%;
+  margin: 0 auto;
+}
+hr {
+  border-bottom: 1px solid slategray;
+  margin: 10px;
+  width: 98%;
+}
+.header {
+  background-color: #a0cef3;
+  border: 1px solid slategray;
+  border-radius: 1rem;
+  margin-top: 10px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+@media (max-width: 1000px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+nav a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 1.5%;
+  color: black;
+}
+nav a:hover {
+  color: white;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2%;
+}
+.footer button {
+  background-color: #4a7699;
+  margin-top: 10px;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+.footer button:hover {
+  background-color: white;
+  color: slategray;
+}
+.footer p {
+  color: black;
+  font-size: 1.4rem;
+  padding: 25px;
+}
+.introDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightgrey;
+  border: 1px solid slategray;
+  border-radius: 1rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+.introDiv h2 {
+  font-size: 7rem;
+}
+.introDiv h3 {
+  padding-bottom: 10px;
+}
+.introDiv nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.introDiv button {
+  background-color: #4a7699;
+  margin-top: 10px;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+.introDiv button:hover {
+  background-color: white;
+  color: slategray;
+}
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.mainContent div {
+  margin: 20px;
+  background-color: navajowhite;
+  border: 1px solid slategray;
+  border-radius: 1rem;
+  padding: 10px;
+  height: 550px;
+}
+.mainContent div img {
+  border-radius: 0.75rem;
+}
+.mainContent div h3 {
+  margin: 5px;
+}
+.aboutIntro {
+  margin: 20px;
+}
+.aboutIntro img {
+  border-radius: 0.75rem;
+}
+.aboutIntroDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightgrey;
+  border: 1px solid slategray;
+  border-radius: 1rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.aboutIntroDiv h2 {
+  font-size: 7rem;
+}
+.aboutIntroDiv h3 {
+  padding-bottom: 10px;
+}
+.aboutIntroDiv nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutIntroDiv button {
+  background-color: #4a7699;
+  margin-top: 10px;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+.aboutIntroDiv button:hover {
+  background-color: white;
+  color: slategray;
+}
+.teamIntro {
+  padding: 10px;
+}
+.teamIntro h2 {
+  font-size: 5rem;
+}
+.teamIntro img {
+  border-radius: 0.75rem;
+  margin-bottom: 10px;
+}
+.teamContent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.teamContent .teamHeader {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.teamContent .teamHeader h2 {
+  font-size: 7rem;
+}
+.teamContent img {
+  border-radius: 15rem;
+  margin-bottom: 10px;
+}
+.teamContent .teamInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.teamContent .teamInfo div {
+  margin: 30px;
+  padding: 20px;
+  border: 1px solid slategray;
+  border-radius: 1rem;
+  background-color: #a0cef3;
+}
