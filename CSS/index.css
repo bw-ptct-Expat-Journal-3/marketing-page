@@ -372,6 +372,22 @@ nav a:hover {
 .teamIntro {
   padding: 10px;
 }
+@media (max-width: 1000px) {
+  .teamIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .teamIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .teamIntro h2 {
   font-size: 5rem;
 }
@@ -393,6 +409,20 @@ nav a:hover {
 .teamContent .teamHeader {
   margin-bottom: 30px;
   margin-top: 20px;
+}
+@media (max-width: 1000px) {
+  .teamContent .teamHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .teamContent .teamHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .teamContent .teamHeader h2 {
   font-size: 7rem;

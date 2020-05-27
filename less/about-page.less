@@ -18,7 +18,7 @@
     padding: 20px;
 
     h2 {
-        font-size: 7rem;;
+        font-size: 7rem;
     }
 
     h3 {
@@ -46,6 +46,16 @@
 .teamIntro {
     padding: 10px;
 
+    @media @tablet {
+        .flex-spacing(center,center);
+        flex-direction: column;
+     }
+     @media @mobile {
+        .flex-spacing(center,center);
+        flex-direction: column;
+     }
+
+
     h2 {
         font-size: 5rem;
     }
@@ -69,8 +79,19 @@
          margin-bottom: 30px;
          margin-top: 20px;
 
+         @media @tablet {
+            .flex-spacing(center,center);
+         }
+         @media @mobile {
+            .flex-spacing(center,center);
+         }
+
          h2 {
              font-size: 7rem;
+
+            //  @media @mobile {
+                
+            //  }
          }
      }
 
@@ -82,10 +103,7 @@
      .teamInfo {
          .flex-spacing(center,center);
          flex-wrap: wrap;
-        //  border: 1px solid slategray;
-        //  border-radius: 1rem;
-        //  background-color: @header-bg;
-        
+
          div {
              margin: 30px;
              padding: 20px;
