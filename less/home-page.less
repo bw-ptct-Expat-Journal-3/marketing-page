@@ -1,8 +1,15 @@
+.intro {
+
+    img {
+        border-radius: .75rem;
+    }
+}
+
 .introDiv {
     .flex-spacing(center,center);
     flex-direction: column;
     background-color: @main-bg;
-    border: 1px solid slategray;
+    border: 1px solid @border-color;
     border-radius: 1rem;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -37,14 +44,26 @@
 .mainContent {
     .flex-spacing(center,center);
     padding: 10px;
+
+    @media @tablet {
+        flex-direction: column;
+        
+    }
+    
     
     div {
         margin: 20px;
         background-color: navajowhite;
-        border: 1px solid slategray;
+        border: 1px solid @border-color;
         border-radius: 1rem;
         padding: 10px;
         height: 550px;
+
+        @media @tablet {
+            .flex-spacing(center,center);
+            flex-direction: column;
+            padding: 5px;
+        }
 
         img {
             border-radius: .75rem;

@@ -177,6 +177,16 @@ img {
   width: 98%;
   margin: 0 auto;
 }
+@media (max-width: 1000px) {
+  .container {
+    margin: 1%;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    margin: 0 auto;
+  }
+}
 hr {
   border-bottom: 1px solid slategray;
   margin: 10px;
@@ -187,6 +197,14 @@ hr {
   border: 1px solid slategray;
   border-radius: 1rem;
   margin-top: 10px;
+}
+@media (max-width: 1000px) {
+  .header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
 }
 nav {
   display: flex;
@@ -240,13 +258,16 @@ nav a:hover {
   font-size: 1.4rem;
   padding: 25px;
 }
+.intro img {
+  border-radius: 0.75rem;
+}
 .introDiv {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: lightgrey;
-  border: 1px solid slategray;
+  border: 1px solid slategrey;
   border-radius: 1rem;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -280,13 +301,27 @@ nav a:hover {
   align-items: center;
   padding: 10px;
 }
+@media (max-width: 1000px) {
+  .mainContent {
+    flex-direction: column;
+  }
+}
 .mainContent div {
   margin: 20px;
   background-color: navajowhite;
-  border: 1px solid slategray;
+  border: 1px solid slategrey;
   border-radius: 1rem;
   padding: 10px;
   height: 550px;
+}
+@media (max-width: 1000px) {
+  .mainContent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+  }
 }
 .mainContent div img {
   border-radius: 0.75rem;
@@ -305,8 +340,8 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: lightgrey;
-  border: 1px solid slategray;
+  background-color: navajowhite;
+  border: 1px solid slategrey;
   border-radius: 1rem;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -349,6 +384,11 @@ nav a:hover {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+  background-color: navajowhite;
+  border: 1px solid slategrey;
+  border-radius: 1rem;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 .teamContent .teamHeader {
   margin-bottom: 30px;
@@ -363,7 +403,7 @@ nav a:hover {
 }
 .teamContent .teamInfo {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -372,5 +412,11 @@ nav a:hover {
   padding: 20px;
   border: 1px solid slategray;
   border-radius: 1rem;
-  background-color: #a0cef3;
+  background-color: lightgrey;
+  max-width: 300px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
