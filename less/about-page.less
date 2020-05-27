@@ -9,7 +9,7 @@
 .aboutIntroDiv {
     .flex-spacing(center,center);
     flex-direction: column;
-    background-color: @main-bg;
+    background-color: @content-bg;
     border: 1px solid slategray;
     border-radius: 1rem;
     margin-top: 10px;
@@ -74,7 +74,7 @@
      }
 
      .teamInfo {
-         .flex-spacing(flex-start,center);
+         .flex-spacing(center,center);
          flex-wrap: wrap;
         //  border: 1px solid slategray;
         //  border-radius: 1rem;
@@ -85,7 +85,9 @@
              padding: 20px;
              border: 1px solid slategray;
              border-radius: 1rem;
-             background-color: @header-bg;
+             background-color: @main-bg;
+             max-width: 300px;
+             height: 600px;
          }
      }
 }

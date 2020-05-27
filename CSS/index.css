@@ -305,7 +305,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: lightgrey;
+  background-color: navajowhite;
   border: 1px solid slategray;
   border-radius: 1rem;
   margin-top: 10px;
@@ -363,7 +363,7 @@ nav a:hover {
 }
 .teamContent .teamInfo {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -372,5 +372,7 @@ nav a:hover {
   padding: 20px;
   border: 1px solid slategray;
   border-radius: 1rem;
-  background-color: #a0cef3;
+  background-color: lightgrey;
+  max-width: 300px;
+  height: 600px;
 }
