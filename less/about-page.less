@@ -45,7 +45,13 @@
 
 .teamIntro {
     padding: 10px;
+    background-image: url('../Images/clouds.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
 
+    border: 1px solid @border-color;
+    border-radius: .75rem;
     @media @tablet {
         .flex-spacing(center,center);
         flex-direction: column;
@@ -60,15 +66,16 @@
         font-size: 5rem;
     }
 
-    img {
-        border-radius: .75rem;
-        margin-bottom: 10px;
-    }
+    // img {
+    //     border-radius: .75rem;
+    //     margin-bottom: 10px;
+    // }
 }
 
 .teamContent {
     .flex-spacing(center, flex-start);
      flex-wrap: wrap;
+     background-image: url('../Images/palmtrees.jpg');
      background-color: @content-bg;
      border: 1px solid @border-color;
      border-radius: 1rem;
@@ -88,10 +95,7 @@
 
          h2 {
              font-size: 7rem;
-
-            //  @media @mobile {
-                
-            //  }
+             color: whitesmoke;
          }
      }
 

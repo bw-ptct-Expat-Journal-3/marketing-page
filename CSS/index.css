@@ -371,6 +371,12 @@ nav a:hover {
 }
 .teamIntro {
   padding: 10px;
+  background-image: url('../Images/clouds.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border: 1px solid slategrey;
+  border-radius: 0.75rem;
 }
 @media (max-width: 1000px) {
   .teamIntro {
@@ -391,15 +397,12 @@ nav a:hover {
 .teamIntro h2 {
   font-size: 5rem;
 }
-.teamIntro img {
-  border-radius: 0.75rem;
-  margin-bottom: 10px;
-}
 .teamContent {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+  background-image: url('../Images/palmtrees.jpg');
   background-color: navajowhite;
   border: 1px solid slategrey;
   border-radius: 1rem;
@@ -426,6 +429,7 @@ nav a:hover {
 }
 .teamContent .teamHeader h2 {
   font-size: 7rem;
+  color: whitesmoke;
 }
 .teamContent img {
   border-radius: 15rem;
