@@ -193,8 +193,6 @@ hr {
   width: 98%;
 }
 .header {
-  background-color: #a0cef3;
-  border: 1px solid slategray;
   border-radius: 1rem;
   margin-top: 10px;
 }
@@ -468,4 +466,13 @@ nav a:hover {
 .contactForm {
   margin: 2%;
   font-size: 20px;
+  background-color: navajowhite;
+  padding: 20px;
+  border: 1px solid slategrey;
+  border-radius: 1rem;
+  background-image: url(../Images/justUs.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
 }
