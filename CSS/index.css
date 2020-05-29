@@ -470,7 +470,7 @@ nav a:hover {
   border: 1px solid slategrey;
   border-radius: 1rem;
   background-color: slategray;
-  background-image: url('../Images/justUs.jpg');
+  background-image: url('.../Images/justUs.jpg');
   background-position: center;
   background-size: cover;
   color: white;
